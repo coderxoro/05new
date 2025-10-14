@@ -62,7 +62,7 @@ async def start(bot, m: Message):
         )
     await bot.send_photo(
         chat_id=m.chat.id,
-        photo="https://iili.io/KuCBoV2.jpg",
+        photo="https://files.catbox.moe/kknolr.jpg",
         caption=caption,
         reply_markup=keyboard
     )
@@ -83,7 +83,7 @@ async def back_to_main_menu(client, callback_query):
     
     await callback_query.message.edit_media(
       InputMediaPhoto(
-        media="https://envs.sh/GVI.jpg",
+        media="https://files.catbox.moe/kknolr.jpg",
         caption=caption
       ),
       reply_markup=keyboard
