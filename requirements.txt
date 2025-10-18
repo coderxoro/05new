@@ -1,4 +1,5 @@
 #saini bots
+torch==2.0.1
 async-lru==2.0.2
 certifi==2023.5.7
 charset-normalizer==3.1.0
@@ -49,3 +50,4 @@ google-auth-oauthlib
 google-auth-httplib2
 google-api-python-client
 ffmpeg-python
+
